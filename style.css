@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #243247;
+    line-height: 1.7;
+}
+
+header {
+    background: #0b1730;
+    color: white;
+    padding: 22px 7%;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #087da5;
+    color: white;
+}
+
+main {
+    max-width: 1100px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+h2 {
+    color: #102849;
+    font-size: 32px;
+}
+
+p {
+    color: #536176;
+}
+
+section, article {
+    margin-bottom: 25px;
+}
+
+.card, .service-card, .portfolio-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px #00000010;
+}
+
+form {
+    max-width: 600px;
+    margin: 25px auto;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 18px;
+    border: 1px solid #ccd6e3;
+    border-radius: 6px;
+    font: inherit;
+}
+
+button, input[type="submit"] {
+    background: #087da5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer {
+    background: #0b1730;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    nav ul {
+        gap: 8px;
+    }
+
+    nav a {
+        padding: 6px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
