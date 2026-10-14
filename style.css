@@ -296,4 +296,62 @@ footer p {
   }
 }
 
+/* ASHTECH PORTFOLIO */
+.portfolio-placeholder {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  background: linear-gradient(135deg, #132d3a, #245a68);
+  color: #ffffff;
+}
+
+.portfolio-placeholder i {
+  font-size: 55px;
+  color: #20c9c3;
+}
+
+.portfolio-placeholder span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.portfolio .portfolio-content {
+  overflow: hidden;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio .portfolio-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.14);
+}
+
+.portfolio .portfolio-info {
+  padding: 22px;
+}
+
+.portfolio .portfolio-info h4 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.portfolio .portfolio-info p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.portfolio .details-link {
+  color: #20a9a4;
+  font-size: 25px;
+}
+
+.portfolio .portfolio-filters li {
+  cursor: pointer;
+}
+
 
