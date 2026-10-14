@@ -354,4 +354,152 @@ footer p {
   cursor: pointer;
 }
 
+/* ==================================
+   ASHTECH CONTACT PAGE
+================================== */
+
+.contact .contact-info-card,
+.contact .contact-form-card {
+  height: 100%;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #e9eeee;
+  border-radius: 14px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
+}
+
+.contact .contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.contact .contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 55px;
+  height: 55px;
+  background: #e7f9f8;
+  color: #159c97;
+  border-radius: 12px;
+}
+
+.contact .contact-icon i {
+  font-size: 25px;
+}
+
+.contact .contact-info-item h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #173b45;
+}
+
+.contact .contact-info-item p {
+  margin: 0;
+  color: #555;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.contact .contact-note {
+  padding: 22px;
+  background: #f0fbfa;
+  border-radius: 10px;
+  border-left: 4px solid #20c9c3;
+}
+
+.contact .contact-note h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #173b45;
+}
+
+.contact .contact-note p {
+  margin-bottom: 0;
+  line-height: 1.8;
+  color: #555;
+}
+
+.contact .contact-form-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #173b45;
+  margin-bottom: 10px;
+}
+
+.contact .contact-form-card > p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.contact .contact-form-card label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #173b45;
+}
+
+.contact .contact-form-card .form-control {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid #dce4e4;
+  border-radius: 7px;
+  font-size: 14px;
+  box-shadow: none;
+}
+
+.contact .contact-form-card .form-control:focus {
+  border-color: #20c9c3;
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(32, 201, 195, 0.12);
+}
+
+.contact .contact-form-card textarea {
+  resize: vertical;
+}
+
+.contact-submit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 24px;
+  border: 2px solid #20c9c3;
+  border-radius: 7px;
+  background: #20c9c3;
+  color: #12343b;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-submit-btn:hover {
+  background: #173b45;
+  border-color: #173b45;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+#contact-status {
+  margin-bottom: 0;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 767px) {
+  .contact .contact-info-card,
+  .contact .contact-form-card {
+    padding: 22px;
+  }
+
+  .contact .contact-form-card h3 {
+    font-size: 21px;
+  }
+}
+
+
 
