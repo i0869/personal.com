@@ -501,5 +501,20 @@ footer p {
   }
 }
 
+/* Make the text below Ashtech Company more visible */
+#hero .container > p:not(.hero-intro) {
+  color: #20d9f5 !important;
+}
+
+/* Keep the animated words clearly visible */
+#hero .typed {
+  color: #20d9f5 !important;
+}
+
+/* Change the description text colour */
+#hero .hero-description {
+  color: #20d9f5 !important;
+}
+
 
 
